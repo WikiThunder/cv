@@ -2,76 +2,86 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>My personal site</title>
+    <title>My website</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <table>
-      <tr>
-        <td><img src="header_image.png" alt="" /></td>
-        <td>
-          <h1>Waqas Ahmad</h1>
-          <hr />
-          <strong><em>University Student</em> </strong>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-image" />
+      <h1>I'm Waqas.</h1>
+      <h2>A Programmer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image" />
+      <img src="images/mountain.png" alt="mountain-image" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="images/waqas.png" alt="image" height="300px" />
+        <h2>Hello.</h2>
+        <p>
+          I am studying to be an Artificial Intelligence Engineer and Software
+          Engineer. I am currently experienced in C++ and Python.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img
+            class="problem_img"
+            src="images/problem_solving.png"
+            alt="problem_solving_image"
+            height="200px"
+          />
+          <h3>Adequate problem solving.</h3>
           <p>
-            I am learning to be a <strong> Software Engineer</strong> and
-            <strong>Artificial Intelligence Engineer</strong>
+            I can solve programming-related intermediate-level problems quite
+            efficiently.
           </p>
-        </td>
-      </tr>
-    </table>
+        </div>
+        <div class="skill-row">
+          <img
+            class="data_img"
+            src="images/data_management.png"
+            alt="data_management_image"
+            height="200px"
+          />
+          <h3>Data Analysis and Manipulation.</h3>
+          <p>
+            I am also experienced with Pandas Library, so I am able to manage
+            and manipulate large chunks of data adequately.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>I am available!</h3>
+        <p>
+          I am open for part-time jobs, remote work and freelancing projects.
+          Currently not available for full-time jobs because I am currently
+          studying.
+        </p>
+        <a class="btn" href="mailto:waqasahmadwiki92727@gmail.com">Contact me</a>
+      </div>
+    </div>
 
-    <hr />
-    <h2>Education</h2>
-    <table border="5">
-      <thead>
-        <tr>
-          <th>Education</th>
-          <th>Institute</th>
-          <th>Grade</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Matriculation</strong></td>
-          <td>SM Boys High School, Lahore</td>
-          <td>A+</td>
-        </tr>
-        <tr>
-          <td><strong>Intermediate</strong></td>
-          <td>GOVT. Islamia Civil Lines College, Lahore</td>
-          <td>C</td>
-        </tr>
-        <tr>
-          <td><strong>Bachelor's</strong></td>
-          <td>
-            <a href="https://www.ue.edu.pk/">University of Education, Lahore</a>
-          </td>
-          <td>N/A</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <thead>
-            <th>Skill</th>
-            <th>Experience</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Python</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>C++</td>
-                <td>⭐⭐</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <strong><a href="hobbies.html">Hobbies</a></strong>
-    <br />
-    <strong><a href="contact_details.html">Contact me</a></strong>
-    <hr />
+    <div class="bottom-container">
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/waqas-ahmad-336784251/"
+        >LinkedIn</a
+      >
+      <a class="footer-link" href="https://twitter.com/me_misterwiki"
+        >Twitter</a
+      >
+      <p>© 2022 Waqas Ahmad.</p>
+    </div>
   </body>
 </html>
